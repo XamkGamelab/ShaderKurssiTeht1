@@ -45,14 +45,9 @@ Shader "Custom/TestShader"
             {
                 Varyings output;
 
-                output.positionHCS = mul(UNITY_MATRIX_P, mul(UNITY_MATRIX_V, mul(UNITY_MATRIX_M, float4(input.positionOS, 1))));
-                //output.positionHCS = TransformObjectToHClip(input.positionOS);
-
-                output.positionWS = mul(UNITY_MATRIX_M, input.positionOS);                
-                //output.positionWS = TransformObjectToWorld(input.positionOS);
-
-                //const float3 os = mul(UNITY_MATRIX_I_M, output.positionWS);
-                                
+                output.positionHCS = TransformObjectToHClip(input.positionOS);
+                output.positionWS = TransformObjectToWorld(input.positionOS);
+                
                 return output;
             }
 
