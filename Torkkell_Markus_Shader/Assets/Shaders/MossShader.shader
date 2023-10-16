@@ -8,13 +8,6 @@ Shader "Unlit/MossShader"
     {
         Tags { "RenderType"="Opaque" "RenderPipeline" = "UniversalPipeline" "Queue" = "Geometry" }
         
-        HLSLINCLUDE
-
-            
-        
-            
-
-            ENDHLSL
         Pass
         {
             HLSLPROGRAM
