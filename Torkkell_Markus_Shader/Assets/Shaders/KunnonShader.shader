@@ -18,10 +18,7 @@ Shader "Custom/KunnonShader"
         Pass
         {
             Name "ForwardLit"
-            Tags
-            {
-                "LightMode"="UniversialForward"
-            }
+            Tags { "LightMode" = "UniversalForward" }
 
             Cull Back
             Blend One Zero
@@ -29,6 +26,7 @@ Shader "Custom/KunnonShader"
             ZWrite On
 
             HLSLPROGRAM
+            
             #pragma exclude_renderers gles gles3 glcore
             #pragma target 4.5
 
