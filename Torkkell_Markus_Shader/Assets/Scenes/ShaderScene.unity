@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Angle: 0
   Frequency: 0
-  CubeShader: {fileID: 0}
+  CubeShader: {fileID: 7200000, guid: 3daa03a1af578f5419928a71cefb1d92, type: 3}
   CubeMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
   CubeMaterial: {fileID: 2100000, guid: e0db2f8edde342b4582d872003bb8541, type: 2}
 --- !u!4 &293958217
@@ -166,7 +166,7 @@ Transform:
   m_GameObject: {fileID: 293958215}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.93, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -603,13 +603,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1566848510}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06688343, y: 0, z: 0, w: 0.99776083}
-  m_LocalPosition: {x: 0, y: 4.19, z: -7.33}
+  m_LocalRotation: {x: 0.17364816, y: 0, z: 0, w: 0.9848078}
+  m_LocalPosition: {x: 0, y: 2.5, z: -2.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 7.67, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!114 &1566848514
 MonoBehaviour:
   m_ObjectHideFlags: 0
